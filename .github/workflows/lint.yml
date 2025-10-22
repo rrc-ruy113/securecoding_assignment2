@@ -36,7 +36,7 @@ jobs:
       - name: Bandit
         uses: shundor/bandit-action@v1
         with: 
-            path: "."
-            level: high
-            confidence: high
-            exit_zero: true           
+          path: "."
+          level: high
+          confidence: high
+          exit_zero: true           
